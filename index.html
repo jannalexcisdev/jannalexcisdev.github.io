@@ -1,178 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="eportfolio.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <title>Mercado's Portfolio</title>
-</head>
-<body>
-    <nav>
-        <div class="nav-links">
-            <div class="portfolio-name">
-                Jann Alexcis's Portfolio
-            </div>
-            <div class="nav-links-buttons">
-                <a href="#home" class="header-button">Home</a>
-                <a href="#about" class="header-button">About</a>
-                <a href="#education" class="header-button">Education & Certifications</a>
-                <a href="#contact" class="header-button">Contact</a>
-            </div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jann's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-brand">Jann's Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
 
-
-    <section id="home">
-        <div class="home-div">
-            <img class="profile-picture" src="profilepic.jpg" alt="profile-picture">
-            <h1 class="full-name">Jann Alexcis Mercado</h1>
-            <p class="bio">Software Engeneering Intern at Qrio Solutions</p>
-        </div>
-    </section>
-    <section id="about">
-        <div class="about-div">
-            <div>
-                <h1 class="h1about">About Me</h1>
-            </div>
-            <div class="desc-myself">
-                <p class="whoami">I am Jann Alexcis Mercado, an intern at Qrio Solutions. I'm constantly learning and 
-                    gaining hands-on experience, sharpening my skills, and contributing to meaningful projects. I 
-                    enjoy problem-solving and collaborating with others to find innovative solutions.</p>
-            </div>
-            <div class="about-grid-container">
-                <div class="about-grid">
-                    <div class="hobbies-grid">
-                        <div class="about-icon">
-                            <i class="fas fa-gamepad"></i>
-                        </div>
-                        <div class="about-icon-desc">
-                            <div class="hobbby-name">
-                                <p class="hobbyname">Games</p>
-                            </div>
-                            <div class="hobby-desc">
-                                <p class="hobbydesc">Playing Online Games keeps me entertained which challenges my strategy skills.</p>
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="hobbies-grid">
-                        <div class="about-icon">
-                            <i class="fas fa-music"></i>
-                        </div>
-                        <div class="about-icon-desc">
-                            <div class="hobbby-name">
-                                <p class="hobbyname">Music</p>
-                            </div>
-                            <div class="hobby-desc">
-                                <p class="hobbydesc">Listening to music because it helps me relax, boosts my mood.</p>
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="hobbies-grid">
-                        <div class="about-icon">
-                            <i class="fas fa-terminal"></i>
-                        </div>
-                        <div class="about-icon-desc">
-                            <div class="hobbby-name">
-                                <p class="hobbyname">Learning</p>
-                            </div>
-                            <div class="hobby-desc">
-                                <p class="hobbydesc">Continuous learning is one of the hobbies that I enjoy because I like gaining new knowledge and improving myself.</p>
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="hobbies-grid">
-                        <div class="about-icon">
-                            <i class="fas fa-basketball"></i>
-                        </div>
-                        <div class="about-icon-desc">
-                            <div class="hobbby-name">
-                                <p class="hobbyname">Basketball</p>
-                            </div>
-                            <div class="hobby-desc">
-                                <p class="hobbydesc">My hobby is basketball because it keeps me active and allows me to have fun while staying fit.</p>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-                <div class="about-skill">
-                    <h1 class="h1skills">Skills</h1>
-                    <p class="pskills"> &#x2022; HTML</p>
-                    <p class="pskills"> &#x2022; CSS</p>
-                    <p class="pskills"> &#x2022; JavaScript</p>
-                    <p class="pskills"> &#x2022; Python</p>
-                    <p class="pskills"> &#x2022; C++</p>
-                    <p class="pskills"> &#x2022; Cisco Networking</p>   
-                </div>
-            </div>
-        </div>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <img
+          class="profile-picture"
+          src="/images/2x2.jpg"
+          alt="profile-picture"
+        />
+        <h1>Hi, I'm <span class="highlight">Jann Alexcis Mercado</span></h1>
+        <h2>Software Engineering Intern at Qrio Solutions</h2>
+        <a href="#contact" class="cta-button">Get in Touch</a>
+      </div>
     </section>
 
-
-    <section id="education">
-        <div class="education-div">
-            <h1 class="h1education">Education</h1>
-            <div class="education-grid">
-                <div class="school-grid">
-                    <div class="dlsl-education">
-                        <h2>De La Salle Lipa</h2>
-                        <p>Grade School</p>
-                        <p>2007 - 2015</p>
-                    </div>
-                    <div class="dlsl-education">
-                        <h2>De La Salle Lipa</h2>
-                        <p>High School</p>
-                        <p>2015 - 2019</p>
-                    </div>
-                    <div class="dlsl-education">
-                        <h2>De La Salle Lipa</h2>
-                        <p>Senior High School</p>
-                        <p>2019 - 2021</p>
-                    </div>
-                    <div class="dlsl-education">
-                        <h2>De La Salle Lipa</h2>
-                        <p>College</p>
-                        <p>2021 - Present</p>
-                    </div>
-                </div>
-                <h1 class="h1certifications">Certifications</h1>
-                <div class="certifications-grid">
-
-                    <div class="dlsl-certification">
-                        <h2>Smartbooks and Power BI</h2>
-                        <!-- <a href="files/sample.pdf" download="sample.pdf">Download PDF</a> -->
-
-                    </div>
-                    <div class="dlsl-certification">
-                        <h2>CCNAv7: Switching, Routing, and Wireless Essentials</h2>
-                        <!-- <a href="files/sample.pdf" download="sample.pdf">Download PDF</a> -->
-                    </div>
-                    <div class="dlsl-certification">
-                        <h2>CCNAv7: Enterprise Networking, Security, and Automation</h2>
-                        <!-- <a href="files/sample.pdf" download="sample.pdf">Download PDF</a> -->
-                    </div>
-                    <div class="dlsl-certification">
-                        <h2>SKILLS TO SUCCEED ACADEMY</h2>
-                        <!-- <a href="files/sample.pdf" download="sample.pdf">Download PDF</a>       -->
-                    </div>
-                </div>
-            </div>
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I’m a Software Engineering Intern with a strong foundation in
+            back-end development and a growing interest in front-end
+            technologies. I enjoy designing and building scalable, efficient
+            server-side systems using tools like NestJS and Flask. During my
+            internship, I’ve worked on real-time web projects, where I focused
+            mainly on the back end—developing APIs, managing databases, and
+            ensuring smooth data flow. I also have some experience with
+            front-end development using Angular, which helps me better
+            understand how the full stack works together. I'm passionate about
+            learning, problem-solving, and contributing to meaningful tech
+            solutions.
+          </p>
         </div>
+      </div>
     </section>
 
-
-    <section id="contact">
-        <div class="contact-div">
-            <h1 class="h1-contact">Get in Touch!</h1>
-            <h1 class="contact-desc">I look forward to exploring new opportunities and working together. Feel free to contact me anytime.</h1>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/jann-alexcis-mercado-a395aa290/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/jannalexcisdev" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.facebook.com/jannalexcis.mercado" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/jannmercado__/" target="_blank"><i class="fab fa-instagram"></i></a>
-            </div>
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fab fa-html5"></i>
+          <h3>HTML5</h3>
         </div>
+        <div class="skill-card">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS3</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-python"></i>
+          <h3>Python</h3>
+        </div>
+        <div class="skill-card">
+          <img src="/images/ts-logo.JPG" alt="typescript logo" />
+          <h3>TypeScript</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-git-alt"></i>
+          <h3>Git</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-node-js"></i>
+          <h3>Node.js</h3>
+        </div>
+        <div class="skill-card">
+          <img src="/images/flask-logo.png" alt="flask logo" />
+          <h3>Flask</h3>
+        </div>
+        <div class="skill-card">
+          <img src="/images/nestjs-logo.png" alt="nestjs logo" />
+          <h3>NestJS</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-angular"></i>
+          <h3>Angular</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-database"></i>
+          <h3>MySQL</h3>
+        </div>
+        <div class="skill-card">
+          <img src="/images/postgresql-logo.png" alt="nestjs logo" />
+          <h3>PostgreSQL</h3>
+        </div>
+      </div>
     </section>
-</body>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="/images/gabay-gov.png"
+            alt="Project 1"
+          />
+          <h3>Hackathon Project</h3>
+          <p>
+            An event web system designed to streamline event announcements and
+            citizen participation using Angular and Python Flask.
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/jannalexcisdev/gabay_gov_web"
+              class="project-link"
+              target="_blank"
+              >Frontend</a
+            >
+            <a
+              href="https://github.com/jannalexcisdev/gabay_gov_api"
+              class="project-link"
+              target="_blank"
+              >Backend</a
+            >
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            src="/images/featwear.png"
+            alt="Project 2"
+          />
+          <h3>School Project: Featwear</h3>
+          <p>
+            A UI design using Figma for a System Design website. The System is a
+            platform for ordering shoes.
+          </p>
+          <a
+            href="https://www.figma.com/design/0isrNH1aHj9SRpiG369K11/Purchasing-Team?node-id=0-1&p=f&t=M9oaDPveZhnMjElx-0"
+            class="single-link"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Get In Touch!</h2>
+      <h3 class="contact-description">
+        I look forward to exploring new opportunities and working together. Feel
+        free to contact me anytime.
+      </h3>
+      <div class="contact-content">
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/jann-alexcis-mercado-a395aa290/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/jannalexcisdev" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.facebook.com/jannalexcis.mercado" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/jannmercado__/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Jann Alexcis Mercado. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
